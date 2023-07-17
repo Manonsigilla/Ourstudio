@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <a href="/index.html"><img src="/img/logo.svg" alt="Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/ourstudio.html">Our studio</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!----------- BURGER MENU RESPONSIVE ---------------->
+        <nav class="menu_burger">
+            <i class="fa-solid fa-bars"></i>
+            
+        </nav>
+
+        <!------------- BURGER MENU FIN --------------------->
+    </header>
+    <main>
+        <div class="getittouch">
+            <h3>Get in touch</h3>
+            <p>The creative web & mobile studio and focused on brand identity, web development and social marketing.</p>
+        </div>
+        <form action="/action_form.php" target="_self" autocomplete="on" method="post" class="form">
+            <input type="text" id="name" name="name" placeholder="Name" minlength="2" maxlength="25" required>
+
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Phone Number" pattern="[0-7]{2}-[0-9]{8}" required>
+
+            <select name="budget" id="budget">
+                <option value="0">Budget Select</option>
+                <option value="10">10€</option>
+                <option value="20">20€</option>
+                <option value="30">30€</option>
+                <option value="40">40€</option>
+                <option value="50">50€</option>
+            </select>
+            <textarea name="message" id="message" cols="30" rows="10" minlength="2" maxlength="150" placeholder="Project details" required></textarea>
+
+            <input type="submit" id="button" value="Send Message">
+        </form>
+    </main>
+    <footer>
+        <section class="footer_first_container">
+            <div>
+                <img src="/img/logo.svg" alt="logo">
+            </div>
+            <div>
+                <p>124 Market Street, Suite 3570 San Francisco, CA 3042 United States</p>
+            </div>
+            <div>
+                <a href="https://mail.google.com/mail/u/1/#inbox?compose=new">hello@yourstudio.co</a>
+                <p>(+01) 2048937 / 02 203403</p>
+            </div>
+        </section>
+        <section class="footer_second_container">
+            <div>
+                <p>2016 Magnet Studio | All rights Reserved</p>
+            </div>
+            <div id="icon">
+                <a href="www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </section>
+    </footer>
+    <script src="https://kit.fontawesome.com/749a2d071e.js" crossorigin="anonymous"></script>
+</body>
+</html>

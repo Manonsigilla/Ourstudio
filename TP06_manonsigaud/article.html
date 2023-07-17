@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <a href="/index.html"><img src="/img/logo.svg" alt="Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/ourstudio.html">Our studio</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!----------- BURGER MENU RESPONSIVE ---------------->
+        <nav class="menu_burger">
+            <i class="fa-solid fa-bars"></i>
+            
+        </nav>
+
+        <!------------- BURGER MENU FIN --------------------->
+    </header>
+    <main class="blog">
+        <h1>Lastest Blogs</h1>
+        <p>The creative web & mobile studio and focused on brand identity, web development and social marketing.</p>
+        <article class="article1">
+            <img src="/img/blog-image1.jpg" alt="Fille à son bureau">
+            <h2>We Help You Create Perfect Modern Design</h2>
+            <div class="info_article_blog">
+                <img src="/img/author-image1.jpg" alt="Profile Picture">
+                <p>Jen Lopez</p>
+                <p>Jan 30, 2016</p>
+                <i class="fa-regular fa-comment">&nbsp;<span>124 Comments</span></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quia distinctio possimus, molestiae maxime quaerat necessitatibus numquam voluptatibus delectus laboriosam commodi voluptatem dolorem sint dolorum perspiciatis beatae error saepe non ullam maiores. Sapiente, quis molestiae!</p>
+            <div class="border_p">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas est laborum laudantium, pariatur necessitatibus.</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, recusandae quaerat libero unde magni soluta eveniet reiciendis expedita suscipit incidunt.</p>
+            <h3>What is Minimal Theme ?</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quos labore sapiente eligendi quasi? Nesciunt, asperiores. Molestiae rerum possimus repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati incidunt maiores similique impedit fugit! At?</p>
+        </article>
+        <hr>
+        <section class="presentation">
+            <img src="/img/author-image1.jpg" alt="Profile Picture">
+            <div>
+                <h4>Jen Lopez ( Designer )</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eveniet quisquam eos ex cumque dolore itaque. Soluta alias porro tempore?</p>
+            </div>   
+        </section>
+        <hr>
+        <section class="comments">
+            <h3>2 Comments</h3>
+            <div class="comment">
+                <img src="/img/comment-image1.jpg" alt="profile picture">
+                <div>
+                    <span class="comment_name">
+                        <p>David Jones</p>
+                        <p>7 months ago</p>
+                    </span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsum vitae iusto recusandae fugiat nesciunt tempore eum odio illo! Incidunt.</p>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="/img/comment-image2.jpg" alt="profile picture">
+                <div class="comment_content">
+                    <span class="comment_name">
+                        <p>Omar Larus</p>
+                        <p>7 months ago</p>
+                    </span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde obcaecati neque doloribus quod deleniti maiores vero placeat quisquam animi quia.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <h2>Leave a comment</h2>
+        <form action="/action_form.php" class="post_your_comment">
+            <textarea name="Message" id="message_comment" cols="30" rows="10" placeholder="Message"></textarea>
+            
+            <input type="text" id="name_comment" name="name" placeholder="Name" minlength="2" maxlength="25" required>
+
+            <input type="email" id="email_comment" name="email" placeholder="Email" required>
+
+            <input type="submit" id="button" value="Post Your Comment">
+        </form>
+    </main>
+    <footer>
+        <section class="footer_first_container">
+            <div>
+                <img src="/img/logo.svg" alt="logo">
+            </div>
+            <div>
+                <p>124 Market Street, Suite 3570 San Francisco, CA 3042 United States</p>
+            </div>
+            <div>
+                <a href="https://mail.google.com/mail/u/1/#inbox?compose=new">hello@yourstudio.co</a>
+                <p>(+01) 2048937 / 02 203403</p>
+            </div>
+        </section>
+        <section class="footer_second_container">
+            <div>
+                <p>2016 Magnet Studio | All rights Reserved</p>
+            </div>
+            <div id="icon">
+                <a href="www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </section>
+    </footer>
+    <script src="https://kit.fontawesome.com/749a2d071e.js" crossorigin="anonymous"></script>
+</body>
+</html>
